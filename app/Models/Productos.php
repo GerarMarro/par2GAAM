@@ -11,8 +11,8 @@ class Productos extends Eloquent
     protected $collection = 'productos';
     protected $fillable = [
         'codprod',
-        'nameprod',
-        'typeprod',
+        'nombreprod',
+        'typprod',
         'costunit',
         'cantexist'
     ];

@@ -39,6 +39,9 @@
                                 <span style="color:white">
                                     <a href="{{ url('/home') }}" class="text-sm underline">Inicio</a>
                                 </span> 
+                                <span style="color:white">
+                                <a class="text-sm underline"href="{{ route('productos.index') }}">{{ __('Productos') }}</a>
+                                </span> 
                             @else
                                 <span style="color:white">
                                     <a href="{{ route('login') }}" class="text-sm underline">Ingresar</a>

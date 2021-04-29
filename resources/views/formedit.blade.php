@@ -14,7 +14,7 @@
         <div class="row">
             <div class="form-group col">
                 <label class="col-form-label col-form-label-sm" for="typeprod">Tipo de Producto</label>
-                <input type="text" name="typeprod" class="form-control form-control-sm col-sm-10" id="typeprod" placeholder="Tipo de producto"value="{{ $productos->typeprod }}">
+                <input type="text" name="typeprod" class="form-control form-control-sm col-sm-10" id="typprod" placeholder="Tipo de producto" value="{{ $productos->typprod }}">
             </div>
         </div>
         <div class="row">
